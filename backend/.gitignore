@@ -1,0 +1,61 @@
+# Node.js
+node_modules/
+/node_modules
+/.pnp
+.pnp.js
+
+# Dependency directories
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Environment variables
+.env
+
+# Log files
+logs/
+*.log
+*.log.*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Build output
+dist/
+build/
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Mac system files
+*.swp
+
+# Test output
+coverage/
+
+# Optional: Coverage reports (from testing frameworks like Jest, Mocha, etc.)
+*.lcov
+
+# Database files (if you have a local database)
+*.db
+*.sqlite
+
+# Firebase-related files
+firebase-debug.log
+
+# .env.local (for local environment files)
+.env.local
+
+# Miscellaneous files
+*.tgz
+
+# React Native (if backend has some mobile development interaction)
+.expo/
+
+# Ignore all files in a specific folder (e.g., uploads)
+uploads/
+
+# Ignore npm package lock if you use yarn
+package-lock.json
